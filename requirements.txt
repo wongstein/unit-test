@@ -1,0 +1,5 @@
+pandas
+pytest
+sklearn
+pytest-describe
+tensorflow
