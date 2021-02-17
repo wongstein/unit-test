@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python-playground:
+    build: .
+    image: python-3-7-playground
+    command: tail -F anything
+    volumes:
+      - './tests.py:/app/tests.py'
+      - './ml_pipeline.py:/app/ml_pipeline.py'
