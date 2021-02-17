@@ -16,9 +16,13 @@ def describe_data_transformation():
     pass
 
 def describe_training_test_split():
-    def it_splits_on_70_30():
+    def it_splits_on_80_20():
         assert True == False
 
 def describe_model():
     def it_has_5_layers():
         pass
+
+    def its_layers_have_weights():
+        pass
+
